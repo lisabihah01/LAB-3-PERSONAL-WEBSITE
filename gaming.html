@@ -6,14 +6,13 @@
     <title>Gaming Highlights</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* General Styles */
+        /* Inline styles for creative flair */
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(to bottom, #e0ffff, #f0f8ff); /* Dreamy gradient */
+            background: linear-gradient(to bottom, #e0ffff, #f0f8ff); /* Soft blue shades for a dreamy look */
             color: #333;
             margin: 0;
         }
-
         header {
             background-color: #4682b4; /* Steel blue */
             color: white;
@@ -21,14 +20,12 @@
             padding: 20px;
             border-bottom: 5px solid #87ceeb; /* Decorative border */
         }
-
         nav {
             background-color: #87ceeb; /* Sky blue */
             text-align: center;
             padding: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         }
-
         nav a {
             text-decoration: none;
             color: white;
@@ -37,60 +34,24 @@
             margin: 0 10px;
             transition: color 0.3s ease;
         }
-
         nav a:hover {
             color: #4682b4;
         }
-
         main {
             padding: 20px;
             text-align: center;
         }
-
-        /* Stylish heading for gaming moments */
-        .gaming-title {
-            font-size: 1.5em;
-            font-weight: bold;
-            text-transform: uppercase;
-            color: #4682b4;
-            letter-spacing: 1px;
-            margin-bottom: 20px;
-            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Adds a slight glow */
-        }
-
-        .gaming-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-
-        .gaming-item {
-            flex: 1 1 calc(33% - 20px); /* Responsive grid: 3 items per row */
-            max-width: 300px;
-            background-color: #e6f7ff; /* Light blue background */
+        img {
+            max-width: 100%;
+            height: auto;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-            overflow: hidden;
-            text-align: center;
+            margin: 20px 0;
         }
-
-        .gaming-item img {
-            width: 100%;
-            height: auto;
-            border-bottom: 5px solid #87ceeb;
+        .description {
+            font-size: 1.2em;
+            margin-bottom: 20px;
         }
-
-        .gaming-item p {
-            font-size: 1.1em;
-            padding: 10px;
-        }
-
-        .gaming-item:hover {
-            transform: scale(1.05); /* Zoom effect on hover */
-            transition: transform 0.3s ease-in-out;
-        }
-
         footer {
             background-color: #4682b4;
             color: white;
@@ -110,24 +71,22 @@
         <a href="hobbies.html">Back to Hobbies</a>
     </nav>
     <main>
-        <p class="gaming-title">Experience my favorite gaming adventures!</p>
-        <div class="gaming-container">
-            <!-- Gaming Item 1 -->
-            <div class="gaming-item">
+        <!-- Bold the sentence and move it to the top -->
+        <p><strong>Here are some of my favorite gaming moments:</strong></p>
+        <ul>
+            <li>
                 <img src="MLBB.jpg" alt="Gaming Moment 1">
-                <p>This is my first memorable gaming experience.</p>
-            </div>
-            <!-- Gaming Item 2 -->
-            <div class="gaming-item">
+                <p class="description">This is my first memorable gaming experience.</p>
+            </li>
+            <li>
                 <img src="PUBG.jpg" alt="Gaming Moment 2">
-                <p>Here is another fantastic gaming highlight.</p>
-            </div>
-            <!-- Gaming Item 3 -->
-            <div class="gaming-item">
+                <p class="description">Here is another fantastic gaming highlight.</p>
+            </li>
+            <li>
                 <img src="HOK.jpg" alt="Gaming Moment 3">
-                <p>Gaming with friends always creates unforgettable memories.</p>
-            </div>
-        </div>
+                <p class="description">Gaming with friends always creates unforgettable memories.</p>
+            </li>
+        </ul>
     </main>
     <footer>
         <p>&copy; Personal 2025 | Aellisa Nabihah Binti Azhan</p>
